@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+hr {
+  height: 10px;
+  color: white;
+  background-color: white;
+}
+
+.header {
+  margin: 0 20px;
+}
+
+.header-image {
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.nav-pos {
+  display: flex;
+  align-items: center;
+  /* padding: 0 40px; */
+}
+
+.navlink-pos {
+  padding-right: 30px !important;
+}
+
+.swap-button {
+  border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.dashboard {
+  margin: 0 80px;
+}
+
+.App-header {
+  color: white;
+  min-height: 80vh;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  text-align: justify;
+  justify-content: center;
+}
+
+.read-button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: black;
+  border: 1px solid white;
+  margin-right: 50px;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #17f092;
+  box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+  border: none;
+}
+
+.buy-button:active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+.buy-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.font-header {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.items {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item-font-header {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.item-font-span {
+  font-size: 15px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.buy-woof {
+  display: flex;
+  flex-direction: column;
+}
+
+.buy-font-header {
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.owlies-club {
+  display: flex;
+  position: relative;
+}
+
+.owlies-club-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  text-align: justify;
+}
+
+.owlies-club-content p {
+  padding-top: 25px;
+  line-height: 30px;
+}
+
+.owlies-items {
+  display: flex;
+  position: relative;
+}
+
+.buy-owlies {
+  background-color: #bfc500;
+}
+
+.buy-owlies-content {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.buy-owlies-button {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.buy-owlies-button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.roadmap-font-header {
+  font-size: 35px;
+  display: flex;
+  justify-content: left;
+  font-weight: bold;
+}
+
+.roadmap-content {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.roadmap-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.roadmap-item-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.roadmap-item-span1 {
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.roadmap-item-span2 {
+  font-size: 15px;
+  color: #02a383;
+  padding-top: 5px;
+}
+
+.footer {
+  margin: 0 50px;
+}
+
+.footer hr {
+  height: 10px;
+  color: white;
+  background-color: white;
+}
+
+.get-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  text-align: justify;
+}
